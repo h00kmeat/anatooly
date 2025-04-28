@@ -4,10 +4,11 @@ version = "0.1.0"
 description = "Tool for analyzing architecture and tech stack detection"
 
 packages = [
-  { include = "code_analyzer", from = "src" }
+  { include = "anatooly", from = "src" }
 ]
+
 [tool.poetry.dependencies]
 python = "^3.8"
 
 [tool.poetry.scripts]
-anatooly = "code_analyzer.cli:main"
+anatooly = "anatooly.cli:main"
