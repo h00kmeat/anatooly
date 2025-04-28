@@ -13,4 +13,4 @@ __pycache__/
 *.sublime-project
 .DS_Store
 Thumbs.db
-
+poetry.lock
