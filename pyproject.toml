@@ -1,21 +1,13 @@
 [tool.poetry]
-name = "code-analysis-tool"
+name = "anatooly"
 version = "0.1.0"
-description = "Tool for analyzing code security and tech stack detection"
-authors = ["Your Name <you@example.com>"]
+description = "Tool for analyzing architecture and tech stack detection"
 
 packages = [
   { include = "code_analyzer", from = "src" }
 ]
 [tool.poetry.dependencies]
 python = "^3.8"
-# Добавьте зависимости, например:
-# regex = "^2022.10.31"
-
-[tool.poetry.dev-dependencies]
-pytest = "^7.0"
-# Добавьте dev-зависимости, например:
-# flake8 = "^4.0"
 
 [tool.poetry.scripts]
-code-analyzer = "code_analyzer.cli:main"
+anatooly = "code_analyzer.cli:main"
